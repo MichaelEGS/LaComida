@@ -41,12 +41,27 @@ namespace LaComida.Services
                     meal.strIngredient19, meal.strIngredient20
                 };
 
+
+
+                        var medidas = new List<string>
+                        {
+                    meal.strMeasure1, meal.strMeasure2, meal.strMeasure3,
+                    meal.strMeasure4,meal.strMeasure5, meal.strMeasure6,
+                    meal.strMeasure7,meal.strMeasure8, meal.strMeasure9,
+                    meal.strMeasure10,meal.strMeasure11,meal.strMeasure12,
+                    meal.strMeasure13,meal.strMeasure14,meal.strMeasure15,
+                    meal.strMeasure16,meal.strMeasure17,meal.strMeasure18,
+                    meal.strMeasure19,meal.strMeasure20,
+                };
+
                         ingredientes.RemoveAll(string.IsNullOrWhiteSpace);
+                        medidas.RemoveAll(string.IsNullOrWhiteSpace);
 
                         return new RecetaSimplificada
                         {
                             Nombre = meal.strMeal,
                             Ingredientes = ingredientes,
+                            Medidas = medidas,
                             Instrucciones = meal.strInstructions,
                             ImagenUrl = meal.strMealThumb
                         };
