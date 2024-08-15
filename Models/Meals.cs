@@ -59,6 +59,7 @@ namespace LaComida.Model
         public string strMeasure18 { get; set; }
         public string strMeasure19 { get; set; }
         public string strMeasure20 { get; set; }
+        public string strYoutube {  get; set; }
     }
 
 }

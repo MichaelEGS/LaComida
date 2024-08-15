@@ -63,7 +63,8 @@ namespace LaComida.Services
                             Ingredientes = ingredientes,
                             Medidas = medidas,
                             Instrucciones = meal.strInstructions,
-                            ImagenUrl = meal.strMealThumb
+                            ImagenUrl = meal.strMealThumb,
+                            TutorialUrl = meal.strYoutube
                         };
                     }
                 }

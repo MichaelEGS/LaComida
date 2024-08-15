@@ -93,6 +93,16 @@ namespace LaComida.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_cerrar_ventana_24 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-cerrar-ventana-24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap maximizar_ventana {
             get {
                 object obj = ResourceManager.GetObject("maximizar-ventana", resourceCulture);
@@ -106,6 +116,26 @@ namespace LaComida.Properties {
         internal static System.Drawing.Bitmap minimizar_ventana {
             get {
                 object obj = ResourceManager.GetObject("minimizar-ventana", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap minimizar_ventana1 {
+            get {
+                object obj = ResourceManager.GetObject("minimizar-ventana1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Portada_ebook_de_cocina_y_recetas__300_x_900_px_ {
+            get {
+                object obj = ResourceManager.GetObject("Portada ebook de cocina y recetas (300 x 900 px)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

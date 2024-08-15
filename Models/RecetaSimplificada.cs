@@ -13,5 +13,6 @@ namespace LaComida.Model
         public List<string> Medidas { get; set; }
         public string Instrucciones { get; set; }
         public string ImagenUrl { get; set; }
+        public string TutorialUrl { get; set; }
     }
 }
