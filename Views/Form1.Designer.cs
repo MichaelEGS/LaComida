@@ -33,22 +33,22 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.lblNombre = new System.Windows.Forms.Label();
-            this.picImagen = new System.Windows.Forms.PictureBox();
             this.txtInstrucciones = new System.Windows.Forms.TextBox();
             this.lstIngredientes = new System.Windows.Forms.ListBox();
             this.panelFondo = new System.Windows.Forms.Panel();
-            this.btnBuscar = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtNombreReceta = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtNombreReceta = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.btnBuscar = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.picImagen)).BeginInit();
+            this.picImagen = new System.Windows.Forms.PictureBox();
             this.panelFondo.SuspendLayout();
-            this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picImagen)).BeginInit();
             this.SuspendLayout();
             // 
             // label2
@@ -65,12 +65,6 @@
             // 
             resources.ApplyResources(this.lblNombre, "lblNombre");
             this.lblNombre.Name = "lblNombre";
-            // 
-            // picImagen
-            // 
-            resources.ApplyResources(this.picImagen, "picImagen");
-            this.picImagen.Name = "picImagen";
-            this.picImagen.TabStop = false;
             // 
             // txtInstrucciones
             // 
@@ -103,20 +97,15 @@
             resources.ApplyResources(this.panelFondo, "panelFondo");
             this.panelFondo.Name = "panelFondo";
             // 
-            // btnBuscar
+            // label4
             // 
-            resources.ApplyResources(this.btnBuscar, "btnBuscar");
-            this.btnBuscar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.UseVisualStyleBackColor = true;
-            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+            resources.ApplyResources(this.label4, "label4");
+            this.label4.Name = "label4";
             // 
-            // panel1
+            // txtNombreReceta
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
-            this.panel1.Controls.Add(this.pictureBox1);
-            resources.ApplyResources(this.panel1, "panel1");
-            this.panel1.Name = "panel1";
+            resources.ApplyResources(this.txtNombreReceta, "txtNombreReceta");
+            this.txtNombreReceta.Name = "txtNombreReceta";
             // 
             // panel2
             // 
@@ -131,21 +120,32 @@
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Name = "label3";
             // 
-            // txtNombreReceta
+            // panel1
             // 
-            resources.ApplyResources(this.txtNombreReceta, "txtNombreReceta");
-            this.txtNombreReceta.Name = "txtNombreReceta";
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
+            this.panel1.Controls.Add(this.pictureBox1);
+            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Name = "panel1";
             // 
-            // label4
+            // btnBuscar
             // 
-            resources.ApplyResources(this.label4, "label4");
-            this.label4.Name = "label4";
+            resources.ApplyResources(this.btnBuscar, "btnBuscar");
+            this.btnBuscar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // pictureBox1
             // 
             resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
+            // 
+            // picImagen
+            // 
+            resources.ApplyResources(this.picImagen, "picImagen");
+            this.picImagen.Name = "picImagen";
+            this.picImagen.TabStop = false;
             // 
             // Form1
             // 
@@ -155,13 +155,13 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            ((System.ComponentModel.ISupportInitialize)(this.picImagen)).EndInit();
             this.panelFondo.ResumeLayout(false);
             this.panelFondo.PerformLayout();
-            this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picImagen)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -81,6 +81,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Views\Form1.es-DO.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -106,6 +107,20 @@
   <ItemGroup>
     <None Include="Views\App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\cruz-pequena.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximizar-ventana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimizar-ventana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expandir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cruz.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
